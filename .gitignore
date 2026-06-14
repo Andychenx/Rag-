@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# ChromaDB vector store (auto-generated)
+chroma_db/
+agent/chroma_db/
+agent/tools/chroma_db/
+rag/chroma_db/
+
+# Logs
+logs/
+*.log
+
+# Generated files
+md5.text
+
+# Environment
+.env
+.env.local
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API key sensitive file (keep template only)
+config/rag.yml
